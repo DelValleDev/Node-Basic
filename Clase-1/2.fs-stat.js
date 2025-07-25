@@ -1,8 +1,8 @@
-const fs = require('node:fs') // A partir de node 16 se recomienda usar node:fs en lugar de fs
+const { statSync } = require('node:fs') // A partir de node 16 se recomienda usar node:fs en lugar de fs
+const path = require('node:path')
 
 // Stat es un método que devuelve información sobre un archivo o directorio.
-
-const stats = fs.statSync('archivo.txt')
+const stats = statSync(path.join(__dirname, 'archivo.txt'))
 
 console.log(
   stats.isFile(), // si es un archivo
