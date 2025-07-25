@@ -1,0 +1,34 @@
+{
+  "name": "curso-node-midudev",
+  "version": "1.0.0",
+  "description": "El mejor curso de Node de habla hispana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/curso-node-js.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "midudev"
+  ],
+  "author": "Samuel Restrepo Del Valle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midudev/curso-node-js/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-node-js#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": { 
+    "extends": ["plugin:node/recommended", "standard"] 
+  }
+}
